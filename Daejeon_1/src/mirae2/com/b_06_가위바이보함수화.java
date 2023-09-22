@@ -81,3 +81,17 @@ public class b_06_가위바이보함수화 {
 	}
 
 }
+/* public static doarr(int com, int person){
+ * int [][] judge={{0,1,2},{2,0,1},{1,2,0}};
+ * return judge=[com][person];
+}*/
+
+/*
+ * public static int docalc(int com, int person){
+ * if(com==(person%3){
+ * return 0;}
+ * else if((com+1)%3==(person%3)){
+ * return 1;}
+ * else{
+ * return 2;}
+ * }*/

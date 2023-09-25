@@ -78,7 +78,7 @@ public class b_06_가위바이보함수화 {
 			System.out.println("게임결과:"+judge[result]);
 			}
 		System.out.println("----- 게임결과:"+ count+"전"+win+"승"+draw+"비김"+lose+"패.-----\n");
-	}
+	}// 
 
 }
 /* public static doarr(int com, int person){

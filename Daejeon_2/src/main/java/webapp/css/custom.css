@@ -1,0 +1,5 @@
+@charset "UTF-8";
+P{
+	font-weight: bold;
+	/* 만약 여기에 blue를 써두더라도 html의 p blue가 실행됨 구체적이기 때문*/
+}

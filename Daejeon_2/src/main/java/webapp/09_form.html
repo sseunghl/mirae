@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+	<form action="loginAction"><!--얘를 만드는게 장고나 파이썬으로 만들어야 데이터를 가지고 form에게 가라-->
+		<table>
+			<tr>
+				<td><label for="email">이메일</label></td>
+				<td><input type="text" id="email" name="email"/></td>
+			</tr>
+			<tr>
+				<td><label for="pwd">비밀번호</label></td>
+				<td><input type="password" id="pwd" name="pwd"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<fieldset>
+						<legend>취미 경로 선택</legend><!-- hidden 화면엔 나타나지 않는데 데이터를 넘겨여할때-->
+						<label><input type="checkbox" name="boddy" value="tennis"/>테니스</label>
+						<label><input type="checkbox" name="boddy" value="piano"/>피아노</label>
+						<label><input type="checkbox" name="boddy" value="etc"/>기타등등</label>
+					</fieldset>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="submit">로그인</button></td>
+			</tr>
+		</table>
+	</form>
+	<a href="01_first.html">hello</a><!--상대주소-->
+	<a href=""http://daum.net">daum</a><!-- 절대 주소-->
+
+</body>
+</html>

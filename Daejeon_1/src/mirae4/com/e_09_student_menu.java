@@ -227,7 +227,8 @@ public class e_09_student_menu {
 		System.out.println("**수정완료**");
 	}
 	public static void ranking(List<Student>list) {
-		sortTot(list);//총점으로 정렬
+		sortTot(list
+				);//총점으로 정렬
 		Iterator<Student> itr=list.iterator();
 		int i=0;
 		while(itr.hasNext()) {

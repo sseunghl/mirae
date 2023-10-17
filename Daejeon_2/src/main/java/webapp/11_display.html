@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#one{ /* #이 붙으면 ID */
+		display: none; /*보이지 않게*/
+	}
+</style>
+</head>
+<body>
+	<h1>display 속성 테스트</h1>
+	<button id="showBtn">보이기</button>
+	<button id="hideBtn">숨기기</button>
+	<button id="toggleBtn">토글</button>
+	<p id="one">This chapter describes the different types for the HTML element.
+	</p>	
+	<script>
+		//getSelectByID() : id를 가져오는거, getSelectClassName() : 이름을 가져오는거, querySelector
+		document.querySelector("#showBtn").addEventListener( //addEventListener : call-back 함수, 이벤트가 발생했을 때
+			"click", function(){
+				document.querySelector("#one").style.display="block";
+			}
+		);
+		document.querySelector("#hideBtn").addEventListener(
+			"click", function(){
+				document.querySelector("#one").style.display="none";
+			}
+		);
+		document.querySelector("#toggleBtn").addEventListener(
+			"click", function(){
+				var current=document.querySelector("#one").style.display;
+				if(current=="none"){
+					document.querySelector("#one").style.display="inline";
+				}
+				else {
+					document.querySelector("#one").style.display="none";
+				}
+			}
+		);		
+	</script>
+</body>
+</html>

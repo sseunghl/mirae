@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+		.wrapper{
+			position:relative;
+			border:1px solid red;
+		}
+		.wrapper img{
+			position:absolute;
+			border:200px;
+		}
+		#one{top:100px; left:100px; z-index:1;}
+		#two{top:150px; left:150px; z-index:2;opacity:0.5;}
+		#three{top:200px; left:200px; z-index:-1;}
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<img id="one" src="images/gom1.jpg"/>
+	<img id="two" src="images/gom2.jpg"/>
+	<img id="three" src="images/gom3.jpg"/>
+</div>
+</body>
+</html>
